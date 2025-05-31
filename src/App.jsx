@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "./firebase"; // Importa la instancia ya creada
+import { auth } from "./firebase"; 
 
 import NavBar from "./components/NavBar";
 import Datos from "./components/DATOS";

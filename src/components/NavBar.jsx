@@ -15,7 +15,7 @@ export default function NavBar({ user }) {
               className="w-auto object-contain"
             />
           </div>
-          {/* Navegación */}
+          
           <div className="flex items-center space-x-8">
             <Link
               to="/inicio"
@@ -50,7 +50,7 @@ export default function NavBar({ user }) {
           </div>
         </div>
 
-        {/* Sección usuario arriba a la derecha */}
+        {/* Sección usuario */}
         {user && (
   <div className="flex flex-col items-center gap-1">
     {user.photoURL && (
