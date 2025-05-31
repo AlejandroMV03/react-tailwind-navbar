@@ -37,7 +37,7 @@ function App() {
           <div className="wave"></div>
           <div className="wave"></div>
         </div>
-        <NavBar />
+        <NavBar user={user} />
         <main className="relative z-10 flex justify-center items-start px-8 py-8">
           <div className="w-full max-w-6xl">
             <Routes>
